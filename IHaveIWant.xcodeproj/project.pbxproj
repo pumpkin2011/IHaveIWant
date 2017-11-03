@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		857E13451FA80A2900716051 /* GoodsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 857E13431FA80A2900716051 /* GoodsTableViewCell.m */; };
+		857E13461FA80A2900716051 /* GoodsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857E13441FA80A2900716051 /* GoodsTableViewCell.xib */; };
 		857F5ABE1FA8040F00FA238E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 857F5ABD1FA8040F00FA238E /* main.m */; };
 		857F5AC11FA8040F00FA238E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 857F5AC01FA8040F00FA238E /* AppDelegate.m */; };
 		857F5AC41FA8040F00FA238E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857F5AC31FA8040F00FA238E /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		857F5ACC1FA8040F00FA238E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857F5ACA1FA8040F00FA238E /* LaunchScreen.storyboard */; };
 		857F5AD71FA8041000FA238E /* IHaveIWantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 857F5AD61FA8041000FA238E /* IHaveIWantTests.m */; };
 		857F5AE21FA8041000FA238E /* IHaveIWantUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 857F5AE11FA8041000FA238E /* IHaveIWantUITests.m */; };
+		857F5AF21FA8054000FA238E /* GoodsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857F5AF11FA8054000FA238E /* GoodsTableViewController.m */; };
+		85C5CA001FA85CD50089ADE9 /* AddGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C5C9FE1FA85CD50089ADE9 /* AddGoodsViewController.m */; };
+		85C5CA031FA860600089ADE9 /* AddGoodsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C5CA021FA860600089ADE9 /* AddGoodsViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		857E13421FA80A2900716051 /* GoodsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsTableViewCell.h; sourceTree = "<group>"; };
+		857E13431FA80A2900716051 /* GoodsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsTableViewCell.m; sourceTree = "<group>"; };
+		857E13441FA80A2900716051 /* GoodsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodsTableViewCell.xib; sourceTree = "<group>"; };
 		857F5AB91FA8040F00FA238E /* IHaveIWant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IHaveIWant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		857F5ABD1FA8040F00FA238E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		857F5ABF1FA8040F00FA238E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,11 @@
 		857F5ADD1FA8041000FA238E /* IHaveIWantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IHaveIWantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		857F5AE11FA8041000FA238E /* IHaveIWantUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IHaveIWantUITests.m; sourceTree = "<group>"; };
 		857F5AE31FA8041000FA238E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857F5AF01FA8054000FA238E /* GoodsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsTableViewController.h; sourceTree = "<group>"; };
+		857F5AF11FA8054000FA238E /* GoodsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsTableViewController.m; sourceTree = "<group>"; };
+		85C5C9FD1FA85CD50089ADE9 /* AddGoodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGoodsViewController.h; sourceTree = "<group>"; };
+		85C5C9FE1FA85CD50089ADE9 /* AddGoodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGoodsViewController.m; sourceTree = "<group>"; };
+		85C5CA021FA860600089ADE9 /* AddGoodsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddGoodsViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +114,8 @@
 		857F5ABB1FA8040F00FA238E /* IHaveIWant */ = {
 			isa = PBXGroup;
 			children = (
+				85C5C9F21FA81F170089ADE9 /* AddGoods */,
+				857F5AEF1FA804ED00FA238E /* GoodsList */,
 				857F5ABF1FA8040F00FA238E /* AppDelegate.h */,
 				857F5AC01FA8040F00FA238E /* AppDelegate.m */,
 				857F5AC21FA8040F00FA238E /* ViewController.h */,
@@ -138,6 +153,28 @@
 				857F5AE31FA8041000FA238E /* Info.plist */,
 			);
 			path = IHaveIWantUITests;
+			sourceTree = "<group>";
+		};
+		857F5AEF1FA804ED00FA238E /* GoodsList */ = {
+			isa = PBXGroup;
+			children = (
+				857F5AF01FA8054000FA238E /* GoodsTableViewController.h */,
+				857F5AF11FA8054000FA238E /* GoodsTableViewController.m */,
+				857E13421FA80A2900716051 /* GoodsTableViewCell.h */,
+				857E13431FA80A2900716051 /* GoodsTableViewCell.m */,
+				857E13441FA80A2900716051 /* GoodsTableViewCell.xib */,
+			);
+			name = GoodsList;
+			sourceTree = "<group>";
+		};
+		85C5C9F21FA81F170089ADE9 /* AddGoods */ = {
+			isa = PBXGroup;
+			children = (
+				85C5C9FD1FA85CD50089ADE9 /* AddGoodsViewController.h */,
+				85C5C9FE1FA85CD50089ADE9 /* AddGoodsViewController.m */,
+				85C5CA021FA860600089ADE9 /* AddGoodsViewController.storyboard */,
+			);
+			name = AddGoods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +286,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C5CA031FA860600089ADE9 /* AddGoodsViewController.storyboard in Resources */,
 				857F5ACC1FA8040F00FA238E /* LaunchScreen.storyboard in Resources */,
 				857F5AC91FA8040F00FA238E /* Assets.xcassets in Resources */,
+				857E13461FA80A2900716051 /* GoodsTableViewCell.xib in Resources */,
 				857F5AC71FA8040F00FA238E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +315,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857F5AF21FA8054000FA238E /* GoodsTableViewController.m in Sources */,
+				857E13451FA80A2900716051 /* GoodsTableViewCell.m in Sources */,
 				857F5AC41FA8040F00FA238E /* ViewController.m in Sources */,
 				857F5AC11FA8040F00FA238E /* AppDelegate.m in Sources */,
 				857F5ABE1FA8040F00FA238E /* main.m in Sources */,
+				85C5CA001FA85CD50089ADE9 /* AddGoodsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +558,7 @@
 				857F5AE81FA8041000FA238E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		857F5AE91FA8041000FA238E /* Build configuration list for PBXNativeTarget "IHaveIWantTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +567,7 @@
 				857F5AEB1FA8041000FA238E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		857F5AEC1FA8041000FA238E /* Build configuration list for PBXNativeTarget "IHaveIWantUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +576,7 @@
 				857F5AEE1FA8041000FA238E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
